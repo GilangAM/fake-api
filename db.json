@@ -1,8 +1,25 @@
 {
-  "posts": [
-    { "id": 1, "title": "Hello World" }
+  "users": [
+    { "id": 1, "name": "John Doe", "email": "john@example.com" },
+    { "id": 2, "name": "Jane Smith", "email": "jane@example.com" }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "posts": [
+    { "id": 1, "userId": 1, "title": "Post Pertama", "body": "Isi post pertama" },
+    { "id": 2, "userId": 1, "title": "Post Kedua", "body": "Isi post kedua" },
+    { "id": 3, "userId": 2, "title": "Post Jane", "body": "Post milik Jane" }
+  ],
+  "comments": [
+    { "id": 1, "postId": 1, "name": "Komentator A", "body": "Komentar untuk post 1" },
+    { "id": 2, "postId": 1, "name": "Komentator B", "body": "Komentar lagi" },
+    { "id": 3, "postId": 3, "name": "Komentator C", "body": "Komentar Jane" }
+  ],
+  "albums": [
+    { "id": 1, "userId": 1, "title": "Album John 1" },
+    { "id": 2, "userId": 2, "title": "Album Jane 1" }
+  ],
+  "photos": [
+    { "id": 1, "albumId": 1, "title": "Foto A", "url": "https://via.placeholder.com/600/92c952", "thumbnailUrl": "https://via.placeholder.com/150/92c952" },
+    { "id": 2, "albumId": 1, "title": "Foto B", "url": "https://via.placeholder.com/600/771796", "thumbnailUrl": "https://via.placeholder.com/150/771796" },
+    { "id": 3, "albumId": 2, "title": "Foto C", "url": "https://via.placeholder.com/600/24f355", "thumbnailUrl": "https://via.placeholder.com/150/24f355" }
+  ]
 }

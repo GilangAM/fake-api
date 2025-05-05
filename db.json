@@ -4,12 +4,7 @@
     { "id": 2, "name": "Jane Smith", "username": "janes", "email": "jane@example.com", "phone": "234-567-8901", "website": "janesmith.io" },
     { "id": 3, "name": "Alice Johnson", "username": "alicej", "email": "alice@example.com", "phone": "345-678-9012", "website": "alicejohnson.dev" },
     { "id": 4, "name": "Bob Brown", "username": "bobb", "email": "bob@example.com", "phone": "456-789-0123", "website": "bobbrown.net" },
-    { "id": 5, "name": "Charlie King", "username": "charliek", "email": "charlie@example.com", "phone": "567-890-1234", "website": "charlieking.org" },
-    { "id": 6, "name": "Diana Prince", "username": "dianap", "email": "diana@example.com", "phone": "678-901-2345", "website": "dianaprince.com" },
-    { "id": 7, "name": "Ethan Hunt", "username": "ethanh", "email": "ethan@example.com", "phone": "789-012-3456", "website": "ethanhunt.org" },
-    { "id": 8, "name": "Fiona Glenanne", "username": "fionag", "email": "fiona@example.com", "phone": "890-123-4567", "website": "fionaglenanne.net" },
-    { "id": 9, "name": "George Miller", "username": "georgem", "email": "george@example.com", "phone": "901-234-5678", "website": "georgemiller.dev" },
-    { "id": 10, "name": "Hannah Wells", "username": "hannahw", "email": "hannah@example.com", "phone": "012-345-6789", "website": "hannahwells.io" }
+    { "id": 5, "name": "Charlie King", "username": "charliek", "email": "charlie@example.com", "phone": "567-890-1234", "website": "charlieking.org" }
   ],
   "posts": [
     { "id": 1, "userId": 1, "title": "Post 1 by John", "body": "This is the first post by John" },
